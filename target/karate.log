@@ -1,0 +1,1797 @@
+18:31:35.639 [main] INFO  com.intuit.karate - karate.env system property was:  
+18:31:35.951 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+18:31:40.169 [main] DEBUG com.intuit.karate - response time in milliseconds: 4183.42
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Age: 3490
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5913d9a4ff6d019b-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 10 May 2020 13:01:40 GMT
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d86385dcdccf9be6eb9b36a4ae2c830d41589115700; expires=Tue, 09-Jun-20 13:01:40 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < cf-request-id: 02a0465b180000019bfcb25200000001
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+18:31:40.270 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Cookie: __cfduid=d86385dcdccf9be6eb9b36a4ae2c830d41589115700
+2 > Host: jsonplaceholder.typicode.com
+2 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+18:31:40.564 [main] DEBUG com.intuit.karate - response time in milliseconds: 292.89
+2 < 200
+2 < Access-Control-Allow-Credentials: true
+2 < Age: 6838
+2 < CF-Cache-Status: HIT
+2 < CF-RAY: 5913d9a82b65da04-SIN
+2 < Cache-Control: max-age=14400
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Sun, 10 May 2020 13:01:40 GMT
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Expires: -1
+2 < Pragma: no-cache
+2 < Server: cloudflare
+2 < Transfer-Encoding: chunked
+2 < Vary: Origin, Accept-Encoding
+2 < Via: 1.1 vegur
+2 < X-Content-Type-Options: nosniff
+2 < X-Powered-By: Express
+2 < cf-request-id: 02a0465d180000da04b825f200000001
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+18:31:40.584 [main] INFO  com.intuit.karate - karate.env system property was:  
+18:31:40.593 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+18:31:43.524 [main] DEBUG com.intuit.karate - response time in milliseconds: 2928.56
+1 < 201
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Expose-Headers: Location
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5913d9aa08170202-SIN
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Length: 216
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 10 May 2020 13:01:43 GMT
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=da29a2e94d47827d17337b27ea13fbe0f1589115700; expires=Tue, 09-Jun-20 13:01:40 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < cf-request-id: 02a0465e47000002028db46200000001
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+18:31:43.558 [main] INFO  com.intuit.karate - [print] created id is:  11
+23:39:24.087 [main] INFO  com.intuit.karate - karate.env system property was:  
+23:39:24.706 [main] DEBUG com.intuit.karate - request:
+1 > GET http://www.mocky.io/v2/5eb7f1f52d00005800357b72
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.mocky.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+23:39:28.995 [main] DEBUG com.intuit.karate - response time in milliseconds: 4286.52
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 97
+1 < Content-Type: application/json
+1 < Date: Sun, 10 May 2020 18:09:28 GMT
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+{
+   "id":"001",
+   "name":"Sample user",
+   "username":"testUser",
+   "email":"test@gmail.com"
+}
+
+23:39:28.997 [main] INFO  com.intuit.karate - [print] {
+  "name": "Sample user",
+  "id": "001",
+  "email": "test@gmail.com",
+  "username": "testUser"
+}
+
+00:31:34.186 [main] INFO  com.intuit.karate - karate.env system property was:  
+00:31:35.061 [main] DEBUG com.intuit.karate - request:
+1 > GET http://www.mocky.io/v2/5eb7f1f52d00005800357b72
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.mocky.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+00:31:39.118 [main] DEBUG com.intuit.karate - response time in milliseconds: 4051.83
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 97
+1 < Content-Type: application/json
+1 < Date: Sun, 10 May 2020 19:01:38 GMT
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+{
+   "id":"001",
+   "name":"Sample user",
+   "username":"testUser",
+   "email":"test@gmail.com"
+}
+
+00:31:39.120 [main] INFO  com.intuit.karate - [print] {
+  "name": "Sample user",
+  "id": "001",
+  "email": "test@gmail.com",
+  "username": "testUser"
+}
+
+17:06:24.862 [main] INFO  com.intuit.karate - karate.env system property was:  
+17:06:25.822 [main] DEBUG com.intuit.karate - request:
+1 > GET http://www.mocky.io/v2/5eb7f1f52d00005800357b72
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.mocky.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+17:06:28.573 [main] DEBUG com.intuit.karate - response time in milliseconds: 2730.19
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 97
+1 < Content-Type: application/json
+1 < Date: Sun, 17 May 2020 11:36:28 GMT
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+{
+   "id":"001",
+   "name":"Sample user",
+   "username":"testUser",
+   "email":"test@gmail.com"
+}
+
+17:06:28.575 [main] INFO  com.intuit.karate - [print] {
+  "name": "Sample user",
+  "id": "001",
+  "email": "test@gmail.com",
+  "username": "testUser"
+}
+
+17:06:52.718 [main] INFO  com.intuit.karate - karate.env system property was:  
+17:06:53.297 [main] DEBUG com.intuit.karate - request:
+1 > GET http://www.mocky.io/v2/5eb7f1f52d00005800357b72
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.mocky.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+17:06:55.241 [main] DEBUG com.intuit.karate - response time in milliseconds: 1938.20
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 97
+1 < Content-Type: application/json
+1 < Date: Sun, 17 May 2020 11:36:55 GMT
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+{
+   "id":"001",
+   "name":"Sample user",
+   "username":"testUser",
+   "email":"test@gmail.com"
+}
+
+17:06:55.245 [main] INFO  com.intuit.karate - [print] {
+  "name": "Sample user",
+  "id": "001",
+  "email": "test@gmail.com",
+  "username": "testUser"
+}
+
+17:12:03.780 [main] INFO  com.intuit.karate - karate.env system property was:  
+17:12:04.365 [main] DEBUG com.intuit.karate - request:
+1 > GET http://www.mocky.io/v2/5eb7f1f52d00005800357b72
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.mocky.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+17:12:05.734 [main] DEBUG com.intuit.karate - response time in milliseconds: 1365.29
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 97
+1 < Content-Type: application/json
+1 < Date: Sun, 17 May 2020 11:42:05 GMT
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+{
+   "id":"001",
+   "name":"Sample user",
+   "username":"testUser",
+   "email":"test@gmail.com"
+}
+
+17:12:05.737 [main] INFO  com.intuit.karate - [print] {
+  "name": "Sample user",
+  "id": "001",
+  "email": "test@gmail.com",
+  "username": "testUser"
+}
+
+17:12:28.255 [main] INFO  com.intuit.karate - karate.env system property was:  
+17:12:28.891 [main] DEBUG com.intuit.karate - request:
+1 > GET http://www.mocky.io/v2/5eb7f1f52d00005800357b72
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.mocky.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+17:12:30.517 [main] DEBUG com.intuit.karate - response time in milliseconds: 1621.17
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 97
+1 < Content-Type: application/json
+1 < Date: Sun, 17 May 2020 11:42:30 GMT
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+{
+   "id":"001",
+   "name":"Sample user",
+   "username":"testUser",
+   "email":"test@gmail.com"
+}
+
+17:12:30.525 [main] INFO  com.intuit.karate - [print] {
+  "name": "Sample user",
+  "id": "001",
+  "email": "test@gmail.com",
+  "username": "testUser"
+}
+
+17:12:49.951 [main] INFO  com.intuit.karate - karate.env system property was:  
+17:12:50.444 [main] DEBUG com.intuit.karate - request:
+1 > GET http://www.mocky.io/v2/5eb7f1f52d00005800357b72
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.mocky.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+17:12:52.538 [main] DEBUG com.intuit.karate - response time in milliseconds: 2087.19
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 97
+1 < Content-Type: application/json
+1 < Date: Sun, 17 May 2020 11:42:52 GMT
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+{
+   "id":"001",
+   "name":"Sample user",
+   "username":"testUser",
+   "email":"test@gmail.com"
+}
+
+17:12:52.551 [main] INFO  com.intuit.karate - [print] {
+  "name": "Sample user",
+  "id": "001",
+  "email": "test@gmail.com",
+  "username": "testUser"
+}
+
+17:16:06.957 [main] INFO  com.intuit.karate - karate.env system property was:  
+17:16:07.526 [main] DEBUG com.intuit.karate - request:
+1 > GET http://www.mocky.io/v2/5eb7f1f52d00005800357b72
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.mocky.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+17:16:11.301 [main] DEBUG com.intuit.karate - response time in milliseconds: 3767.61
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 97
+1 < Content-Type: application/json
+1 < Date: Sun, 17 May 2020 11:46:11 GMT
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+{
+   "id":"001",
+   "name":"Sample user",
+   "username":"testUser",
+   "email":"test@gmail.com"
+}
+
+17:16:11.305 [main] INFO  com.intuit.karate - [print] {
+  "name": "Sample user",
+  "id": "001",
+  "email": "test@gmail.com",
+  "username": "testUser"
+}
+
+17:16:48.012 [main] INFO  com.intuit.karate - karate.env system property was:  
+17:16:48.694 [main] DEBUG com.intuit.karate - request:
+1 > GET http://www.mocky.io/v2/5eb7f1f52d00005800357b72
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.mocky.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+17:16:52.767 [main] DEBUG com.intuit.karate - response time in milliseconds: 4069.03
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 97
+1 < Content-Type: application/json
+1 < Date: Sun, 17 May 2020 11:46:52 GMT
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+{
+   "id":"001",
+   "name":"Sample user",
+   "username":"testUser",
+   "email":"test@gmail.com"
+}
+
+17:16:52.772 [main] INFO  com.intuit.karate - [print] {
+  "name": "Sample user",
+  "id": "001",
+  "email": "test@gmail.com",
+  "username": "testUser"
+}
+
+17:16:52.785 [main] ERROR com.intuit.karate - assertion failed: path: $.id, actual: '001', expected: '888(', reason: not a sub-string
+17:17:25.882 [main] INFO  com.intuit.karate - karate.env system property was:  
+17:17:26.511 [main] DEBUG com.intuit.karate - request:
+1 > GET http://www.mocky.io/v2/5eb7f1f52d00005800357b72
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.mocky.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+17:17:29.219 [main] DEBUG com.intuit.karate - response time in milliseconds: 2700.76
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 97
+1 < Content-Type: application/json
+1 < Date: Sun, 17 May 2020 11:47:29 GMT
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+{
+   "id":"001",
+   "name":"Sample user",
+   "username":"testUser",
+   "email":"test@gmail.com"
+}
+
+17:17:29.223 [main] INFO  com.intuit.karate - [print] {
+  "name": "Sample user",
+  "id": "001",
+  "email": "test@gmail.com",
+  "username": "testUser"
+}
+
+17:17:29.234 [main] ERROR com.intuit.karate - assertion failed: path: $.id, actual: '001', expected: '888', reason: not a sub-string
+17:18:08.666 [main] INFO  com.intuit.karate - karate.env system property was:  
+17:18:09.266 [main] DEBUG com.intuit.karate - request:
+1 > GET http://www.mocky.io/v2/5eb7f1f52d00005800357b72
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.mocky.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+17:18:12.555 [main] DEBUG com.intuit.karate - response time in milliseconds: 3278.68
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 97
+1 < Content-Type: application/json
+1 < Date: Sun, 17 May 2020 11:48:12 GMT
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+{
+   "id":"001",
+   "name":"Sample user",
+   "username":"testUser",
+   "email":"test@gmail.com"
+}
+
+17:18:12.565 [main] INFO  com.intuit.karate - [print] {
+  "name": "Sample user",
+  "id": "001",
+  "email": "test@gmail.com",
+  "username": "testUser"
+}
+
+22:49:31.517 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:49:32.211 [main] DEBUG com.intuit.karate - request:
+1 > GET http://www.mocky.io/v2/5eb7f1f52d00005800357b72
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.mocky.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+22:49:36.970 [main] DEBUG com.intuit.karate - response time in milliseconds: 4753.65
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 97
+1 < Content-Type: application/json
+1 < Date: Sun, 17 May 2020 17:19:36 GMT
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+{
+   "id":"001",
+   "name":"Sample user",
+   "username":"testUser",
+   "email":"test@gmail.com"
+}
+
+22:49:36.976 [main] INFO  com.intuit.karate - [print] {
+  "name": "Sample user",
+  "id": "001",
+  "email": "test@gmail.com",
+  "username": "testUser"
+}
+
+23:31:57.993 [main] INFO  com.intuit.karate - karate.env system property was:  
+23:31:58.476 [main] DEBUG com.intuit.karate - request:
+1 > GET http://www.mocky.io/v2/5eb7f1f52d00005800357b72
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.mocky.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+23:32:02.508 [main] DEBUG com.intuit.karate - response time in milliseconds: 4026.65
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 97
+1 < Content-Type: application/json
+1 < Date: Sun, 17 May 2020 18:02:02 GMT
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+{
+   "id":"001",
+   "name":"Sample user",
+   "username":"testUser",
+   "email":"test@gmail.com"
+}
+
+23:32:02.512 [main] INFO  com.intuit.karate - [print] {
+  "name": "Sample user",
+  "id": "001",
+  "email": "test@gmail.com",
+  "username": "testUser"
+}
+
+21:20:43.525 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:20:43.978 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 89
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com"}
+
+21:20:49.199 [main] DEBUG com.intuit.karate - response time in milliseconds: 5216.57
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Sat, 23 May 2020 15:50:49 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1590249108
+1 < x-srv-span: v=1;s=a25f7c0bfeb01354
+1 < x-srv-trace: v=1;t=47e08ddfe8b114fc
+{ "Status" : "OK" }
+
+21:23:21.064 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:23:21.536 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 89
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com"}
+
+21:23:36.883 [main] DEBUG com.intuit.karate - response time in milliseconds: 15343.91
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Sat, 23 May 2020 15:53:36 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1590249276
+1 < x-srv-span: v=1;s=27d97fecca3f3ad4
+1 < x-srv-trace: v=1;t=7d607201f996b1bf
+{ "Status" : "OK" }
+
+21:23:36.893 [main] ERROR com.intuit.karate - assertion failed: path: $.status, actual: null, expected: '#present', reason: actual json-path does not exist
+21:24:55.911 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:24:56.531 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 89
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com"}
+
+21:25:01.391 [main] DEBUG com.intuit.karate - response time in milliseconds: 4856.13
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Sat, 23 May 2020 15:55:01 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 118
+1 < X-RateLimit-Reset: 1590249337
+1 < x-srv-span: v=1;s=63ab23d3122b3f26
+1 < x-srv-trace: v=1;t=a50504647a06914b
+{ "Status" : "OK" }
+
+21:32:34.738 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:32:35.255 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 89
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com"}
+
+21:32:40.218 [main] DEBUG com.intuit.karate - response time in milliseconds: 4958.42
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Sat, 23 May 2020 16:02:40 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1590249819
+1 < x-srv-span: v=1;s=04f9abe695fc1295
+1 < x-srv-trace: v=1;t=ba9f32443c62a1fa
+{ "Status" : "OK" }
+
+21:32:40.251 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:32:40.257 [main] DEBUG com.intuit.karate - request:
+1 > GET https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/GETUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+21:32:41.433 [main] DEBUG com.intuit.karate - response time in milliseconds: 1172.72
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Sat, 23 May 2020 16:02:41 GMT
+1 < ETag: W/"6a-pCbccNyy7h9RhSnfl4eAKZXhm+U"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 118
+1 < X-RateLimit-Reset: 1590249819
+1 < x-srv-span: v=1;s=4f041763bfac9c7c
+1 < x-srv-trace: v=1;t=6d4b71992124095e
+{
+   "firstName":"James",
+   "lastName":"White",
+   "username":"jamesWhite",
+   "email":"james@user.com"
+}
+
+21:32:41.449 [main] ERROR com.intuit.karate - assertion failed: path: $.firstName, actual: 'James', expected: 'user.firstName', reason: not equal
+21:33:33.024 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:33:33.610 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 89
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com"}
+
+21:33:38.611 [main] DEBUG com.intuit.karate - response time in milliseconds: 4997.83
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Sat, 23 May 2020 16:03:38 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 117
+1 < X-RateLimit-Reset: 1590249819
+1 < x-srv-span: v=1;s=559fe2a2f11a8fbb
+1 < x-srv-trace: v=1;t=dc246d86308d1e12
+{ "Status" : "OK" }
+
+21:33:38.646 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:33:38.652 [main] DEBUG com.intuit.karate - request:
+1 > GET https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/GETUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+21:33:39.908 [main] DEBUG com.intuit.karate - response time in milliseconds: 1251.68
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Sat, 23 May 2020 16:03:39 GMT
+1 < ETag: W/"6a-pCbccNyy7h9RhSnfl4eAKZXhm+U"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1590249879
+1 < x-srv-span: v=1;s=a0f69890d7e97cfb
+1 < x-srv-trace: v=1;t=22a4c581c17ca760
+{
+   "firstName":"James",
+   "lastName":"White",
+   "username":"jamesWhite",
+   "email":"james@user.com"
+}
+
+16:42:34.825 [main] INFO  com.intuit.karate - karate.env system property was:  
+16:42:35.809 [main] INFO  com.intuit.karate - karate.env system property was:  
+16:42:36.625 [main] DEBUG com.intuit.karate - request:
+1 > GET https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/GETUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+16:42:41.898 [main] DEBUG com.intuit.karate - response time in milliseconds: 5269.09
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Mon, 25 May 2020 11:12:41 GMT
+1 < ETag: W/"6a-pCbccNyy7h9RhSnfl4eAKZXhm+U"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1590405221
+1 < x-srv-span: v=1;s=41e5345e16a0fefc
+1 < x-srv-trace: v=1;t=2f7786a018a564fe
+{
+   "firstName":"James",
+   "lastName":"White",
+   "username":"jamesWhite",
+   "email":"james@user.com"
+}
+
+16:43:41.963 [main] INFO  com.intuit.karate - karate.env system property was:  
+16:43:42.410 [main] INFO  com.intuit.karate - karate.env system property was:  
+16:43:42.678 [main] DEBUG com.intuit.karate - request:
+1 > GET https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/GETUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+16:43:46.439 [main] DEBUG com.intuit.karate - response time in milliseconds: 3757.70
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Mon, 25 May 2020 11:13:46 GMT
+1 < ETag: W/"6a-pCbccNyy7h9RhSnfl4eAKZXhm+U"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1590405286
+1 < x-srv-span: v=1;s=815949fb4a93b34f
+1 < x-srv-trace: v=1;t=c13e549e46433488
+{
+   "firstName":"James",
+   "lastName":"White",
+   "username":"jamesWhite",
+   "email":"james@user.com"
+}
+
+16:44:13.710 [main] INFO  com.intuit.karate - karate.env system property was:  
+16:44:14.327 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 89
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com"}
+
+16:44:16.334 [main] DEBUG com.intuit.karate - response time in milliseconds: 2002.92
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Mon, 25 May 2020 11:14:16 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 118
+1 < X-RateLimit-Reset: 1590405286
+1 < x-srv-span: v=1;s=b00f787398f8a13d
+1 < x-srv-trace: v=1;t=952b74c707c50653
+{ "Status" : "OK" }
+
+16:44:16.386 [main] INFO  com.intuit.karate - karate.env system property was:  
+16:44:16.390 [main] DEBUG com.intuit.karate - request:
+1 > GET https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/GETUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+16:44:17.539 [main] DEBUG com.intuit.karate - response time in milliseconds: 1147.24
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Mon, 25 May 2020 11:14:17 GMT
+1 < ETag: W/"6a-pCbccNyy7h9RhSnfl4eAKZXhm+U"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 117
+1 < X-RateLimit-Reset: 1590405286
+1 < x-srv-span: v=1;s=0deb223edb3e78b4
+1 < x-srv-trace: v=1;t=f9f829b5b29daea6
+{
+   "firstName":"James",
+   "lastName":"White",
+   "username":"jamesWhite",
+   "email":"james@user.com"
+}
+
+16:53:27.959 [main] INFO  com.intuit.karate - karate.env system property was:  
+16:53:28.259 [main] INFO  com.intuit.karate - karate.env system property was:  
+16:53:45.521 [main] INFO  com.intuit.karate - karate.env system property was:  
+16:53:46.036 [main] INFO  com.intuit.karate - karate.env system property was:  
+16:55:28.602 [main] INFO  com.intuit.karate - karate.env system property was:  
+16:55:28.905 [main] INFO  com.intuit.karate - karate.env system property was:  
+16:57:30.751 [main] INFO  com.intuit.karate - karate.env system property was:  
+16:57:31.012 [main] INFO  com.intuit.karate - karate.env system property was:  
+16:57:46.205 [main] INFO  com.intuit.karate - karate.env system property was:  
+16:57:46.744 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 89
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com"}
+
+16:57:51.753 [main] DEBUG com.intuit.karate - response time in milliseconds: 5003.87
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Mon, 25 May 2020 11:27:51 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1590406131
+1 < x-srv-span: v=1;s=46f3d88ad6bbb29a
+1 < x-srv-trace: v=1;t=b27de61429acf639
+{ "Status" : "OK" }
+
+16:57:51.822 [main] INFO  com.intuit.karate - karate.env system property was:  
+16:58:55.079 [main] INFO  com.intuit.karate - karate.env system property was:  
+16:58:55.809 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 89
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com"}
+
+16:59:00.627 [main] DEBUG com.intuit.karate - response time in milliseconds: 4814.13
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Mon, 25 May 2020 11:29:00 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1590406200
+1 < x-srv-span: v=1;s=3daa9840a24ce28b
+1 < x-srv-trace: v=1;t=55ec7ee1a89f08b1
+{ "Status" : "OK" }
+
+17:03:16.915 [main] INFO  com.intuit.karate - karate.env system property was:  
+17:03:17.722 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 89
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com"}
+
+17:03:21.522 [main] DEBUG com.intuit.karate - response time in milliseconds: 3798.21
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Mon, 25 May 2020 11:33:21 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1590406460
+1 < x-srv-span: v=1;s=49fe53ff7009615d
+1 < x-srv-trace: v=1;t=d75564c6e162b74d
+{ "Status" : "OK" }
+
+18:25:32.594 [main] INFO  com.intuit.karate - karate.env system property was:  
+18:25:33.088 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 89
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com"}
+
+18:25:38.178 [main] DEBUG com.intuit.karate - response time in milliseconds: 5086.81
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Mon, 25 May 2020 12:55:38 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1590411397
+1 < x-srv-span: v=1;s=e035f97e8057ba2f
+1 < x-srv-trace: v=1;t=068641fa6afcdcc1
+{ "Status" : "OK" }
+
+19:16:09.103 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:16:09.599 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 109
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com","firstname":"Peter"}
+
+19:16:14.431 [main] DEBUG com.intuit.karate - response time in milliseconds: 4827.65
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Mon, 25 May 2020 13:46:14 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1590414434
+1 < x-srv-span: v=1;s=87a8d07b6ce10fab
+1 < x-srv-trace: v=1;t=29c81328c7005893
+{ "Status" : "OK" }
+
+19:17:04.588 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:17:05.302 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 89
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"Peter","lastName":"White","username":"jamesWhite","email":"james@user.com"}
+
+19:17:06.740 [main] DEBUG com.intuit.karate - response time in milliseconds: 1434.09
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Mon, 25 May 2020 13:47:06 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 118
+1 < X-RateLimit-Reset: 1590414434
+1 < x-srv-span: v=1;s=b5b056f30ad18dc1
+1 < x-srv-trace: v=1;t=3a4dfc198cb0bb70
+{ "Status" : "OK" }
+
+19:24:42.821 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:24:43.371 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 91
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"Peter","lastName":"Parker","username":"spiderman","email":"spider@gmail.com"}
+
+19:24:48.321 [main] DEBUG com.intuit.karate - response time in milliseconds: 4945.90
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Mon, 25 May 2020 13:54:48 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1590414948
+1 < x-srv-span: v=1;s=0104f50ae02c8323
+1 < x-srv-trace: v=1;t=824e4b8acdf5f236
+{ "Status" : "OK" }
+
+00:46:34.912 [main] INFO  com.intuit.karate - karate.env system property was:  
+00:46:35.790 [main] DEBUG com.intuit.karate - request:
+1 > GET http://www.mocky.io/v2/5eb7f1f52d00005800357b72
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.mocky.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+00:46:39.860 [main] DEBUG com.intuit.karate - response time in milliseconds: 4065.03
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 97
+1 < Content-Type: application/json
+1 < Date: Sun, 31 May 2020 19:16:39 GMT
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+{
+   "id":"001",
+   "name":"Sample user",
+   "username":"testUser",
+   "email":"test@gmail.com"
+}
+
+00:46:39.865 [main] INFO  com.intuit.karate - [print] {
+  "name": "Sample user",
+  "id": "001",
+  "email": "test@gmail.com",
+  "username": "testUser"
+}
+
+00:53:51.041 [main] INFO  com.intuit.karate - karate.env system property was:  
+00:53:51.680 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 89
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com"}
+
+00:53:54.720 [main] DEBUG com.intuit.karate - response time in milliseconds: 3036.94
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Sun, 31 May 2020 19:23:54 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1590953094
+1 < x-srv-span: v=1;s=a0a75d35e15401d1
+1 < x-srv-trace: v=1;t=09f22db73ab8b6ae
+{ "Status" : "OK" }
+
+00:14:01.491 [main] INFO  com.intuit.karate - karate.env system property was:  
+00:14:02.797 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 89
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com"}
+
+00:14:07.927 [main] DEBUG com.intuit.karate - response time in milliseconds: 5075.31
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Mon, 01 Jun 2020 18:44:07 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1591037107
+1 < x-srv-span: v=1;s=ffd5e415268698c7
+1 < x-srv-trace: v=1;t=4edffa2a6f8e0812
+{ "Status" : "OK" }
+
+00:14:08.012 [main] INFO  com.intuit.karate - karate.env system property was:  
+00:14:08.017 [main] DEBUG com.intuit.karate - request:
+1 > GET https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/GETUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+00:14:09.107 [main] DEBUG com.intuit.karate - response time in milliseconds: 1087.56
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Mon, 01 Jun 2020 18:44:08 GMT
+1 < ETag: W/"6a-pCbccNyy7h9RhSnfl4eAKZXhm+U"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 118
+1 < X-RateLimit-Reset: 1591037107
+1 < x-srv-span: v=1;s=88c37c94f2a4d149
+1 < x-srv-trace: v=1;t=f0605c2a0cf4b236
+{
+   "firstName":"James",
+   "lastName":"White",
+   "username":"jamesWhite",
+   "email":"james@user.com"
+}
+
+12:27:29.788 [main] INFO  com.intuit.karate - karate.env system property was:  
+12:27:31.145 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 89
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com"}
+
+12:27:36.344 [main] DEBUG com.intuit.karate - response time in milliseconds: 5150.93
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Tue, 02 Jun 2020 06:57:36 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1591081116
+1 < x-srv-span: v=1;s=fd3d93b6db2fc95e
+1 < x-srv-trace: v=1;t=b0995c85074ed0e8
+{ "Status" : "OK" }
+
+12:27:36.423 [main] INFO  com.intuit.karate - karate.env system property was:  
+12:27:36.429 [main] DEBUG com.intuit.karate - request:
+1 > GET https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/GETUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+12:27:37.545 [main] DEBUG com.intuit.karate - response time in milliseconds: 1113.28
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Tue, 02 Jun 2020 06:57:37 GMT
+1 < ETag: W/"6a-pCbccNyy7h9RhSnfl4eAKZXhm+U"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 118
+1 < X-RateLimit-Reset: 1591081116
+1 < x-srv-span: v=1;s=e27071fda5b3c8d8
+1 < x-srv-trace: v=1;t=4fe9538e0001270a
+{
+   "firstName":"James",
+   "lastName":"White",
+   "username":"jamesWhite",
+   "email":"james@user.com"
+}
+
+12:29:24.297 [main] INFO  com.intuit.karate - karate.env system property was:  
+12:29:25.033 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 89
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com"}
+
+12:29:29.938 [main] DEBUG com.intuit.karate - response time in milliseconds: 4899.38
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Tue, 02 Jun 2020 06:59:29 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1591081229
+1 < x-srv-span: v=1;s=491b391ed4081001
+1 < x-srv-trace: v=1;t=41d47027fe6cc9e9
+{ "Status" : "OK" }
+
+12:29:29.944 [main] INFO  com.intuit.karate - [print] {
+  "Status": "OK"
+}
+
+12:29:57.241 [main] INFO  com.intuit.karate - karate.env system property was:  
+12:31:41.971 [main] INFO  com.intuit.karate - karate.env system property was:  
+12:38:36.763 [main] INFO  com.intuit.karate - karate.env system property was:  
+12:38:37.612 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 89
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com"}
+
+12:38:41.360 [main] DEBUG com.intuit.karate - response time in milliseconds: 3732.24
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Tue, 02 Jun 2020 07:08:41 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1591081781
+1 < x-srv-span: v=1;s=f6c608e8cdcf1bf8
+1 < x-srv-trace: v=1;t=7f399d25769d83d6
+{ "Status" : "OK" }
+
+13:35:57.924 [main] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript evaluation failed: read('classpath:karate-config.js'), javascript evaluation failed: config.params = "queryParams";, ReferenceError: "config" is not defined in <eval> at line number 1
+13:36:00.480 [main] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript evaluation failed: read('classpath:karate-config.js'), javascript evaluation failed: config.params = "queryParams";, ReferenceError: "config" is not defined in <eval> at line number 1
+13:37:29.310 [main] INFO  com.intuit.karate - karate.env system property was:  
+13:37:32.478 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 156
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com","phones\"":[{"type":"HOME","number":"1234567890","countryCode":4}]}
+
+13:37:36.635 [main] DEBUG com.intuit.karate - response time in milliseconds: 4152.45
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Wed, 03 Jun 2020 08:07:36 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1591171716
+1 < x-srv-span: v=1;s=c095fbf609d5abec
+1 < x-srv-trace: v=1;t=f46e4e2684439730
+{ "Status" : "OK" }
+
+13:37:36.702 [main] INFO  com.intuit.karate - karate.env system property was:  
+13:37:36.712 [main] DEBUG com.intuit.karate - request:
+1 > GET https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/GETUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+13:37:37.795 [main] DEBUG com.intuit.karate - response time in milliseconds: 1079.87
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Wed, 03 Jun 2020 08:07:37 GMT
+1 < ETag: W/"6a-pCbccNyy7h9RhSnfl4eAKZXhm+U"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 118
+1 < X-RateLimit-Reset: 1591171716
+1 < x-srv-span: v=1;s=d27dbbc265d76a34
+1 < x-srv-trace: v=1;t=b0ec32948f70a8d7
+{
+   "firstName":"James",
+   "lastName":"White",
+   "username":"jamesWhite",
+   "email":"james@user.com"
+}
+
+13:38:48.888 [main] INFO  com.intuit.karate - karate.env system property was:  
+13:38:49.438 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 156
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com","phones\"":[{"type":"HOME","number":"1234567890","countryCode":4}]}
+
+13:38:53.113 [main] DEBUG com.intuit.karate - response time in milliseconds: 3671.05
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Wed, 03 Jun 2020 08:08:52 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1591171792
+1 < x-srv-span: v=1;s=75755d8efb56b6d1
+1 < x-srv-trace: v=1;t=5fef92445fb684c2
+{ "Status" : "OK" }
+
+13:38:53.191 [main] INFO  com.intuit.karate - karate.env system property was:  
+13:38:53.199 [main] DEBUG com.intuit.karate - request:
+1 > GET https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/GETUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+13:38:54.279 [main] DEBUG com.intuit.karate - response time in milliseconds: 1077.05
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Wed, 03 Jun 2020 08:08:54 GMT
+1 < ETag: W/"6a-pCbccNyy7h9RhSnfl4eAKZXhm+U"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 118
+1 < X-RateLimit-Reset: 1591171792
+1 < x-srv-span: v=1;s=beccc661ddba7ba2
+1 < x-srv-trace: v=1;t=3042ab46afc1eb24
+{
+   "firstName":"James",
+   "lastName":"White",
+   "username":"jamesWhite",
+   "email":"james@user.com"
+}
+
+13:39:10.509 [main] INFO  com.intuit.karate - karate.env system property was:  
+13:39:11.092 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 156
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com","phones\"":[{"type":"HOME","number":"1234567890","countryCode":4}]}
+
+13:39:12.447 [main] DEBUG com.intuit.karate - response time in milliseconds: 1351.30
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Wed, 03 Jun 2020 08:09:12 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 117
+1 < X-RateLimit-Reset: 1591171792
+1 < x-srv-span: v=1;s=c3378f4ac51c8cff
+1 < x-srv-trace: v=1;t=bff472f370493665
+{ "Status" : "OK" }
+
+13:39:12.514 [main] INFO  com.intuit.karate - karate.env system property was:  
+13:39:12.525 [main] DEBUG com.intuit.karate - request:
+1 > GET https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/GETUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+
+13:39:13.681 [main] DEBUG com.intuit.karate - response time in milliseconds: 1154.41
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Wed, 03 Jun 2020 08:09:13 GMT
+1 < ETag: W/"6a-pCbccNyy7h9RhSnfl4eAKZXhm+U"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 116
+1 < X-RateLimit-Reset: 1591171792
+1 < x-srv-span: v=1;s=d14d29169ab735b8
+1 < x-srv-trace: v=1;t=83657822de2fd48d
+{
+   "firstName":"James",
+   "lastName":"White",
+   "username":"jamesWhite",
+   "email":"james@user.com"
+}
+
+13:39:31.359 [main] INFO  com.intuit.karate - karate.env system property was:  
+13:39:31.879 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 156
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com","phones\"":[{"type":"HOME","number":"1234567890","countryCode":4}]}
+
+13:39:33.161 [main] DEBUG com.intuit.karate - response time in milliseconds: 1277.64
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Wed, 03 Jun 2020 08:09:33 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 115
+1 < X-RateLimit-Reset: 1591171792
+1 < x-srv-span: v=1;s=f2b9df7f71e94372
+1 < x-srv-trace: v=1;t=3c6c185f329d4a73
+{ "Status" : "OK" }
+
+13:39:53.285 [main] INFO  com.intuit.karate - karate.env system property was:  
+13:39:53.872 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 156
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com","phones\"":[{"type":"HOME","number":"1234567890","countryCode":4}]}
+
+13:39:58.430 [main] DEBUG com.intuit.karate - response time in milliseconds: 4553.77
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Wed, 03 Jun 2020 08:09:58 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1591171858
+1 < x-srv-span: v=1;s=b60aba7992f10bfe
+1 < x-srv-trace: v=1;t=3d7ebb403242d285
+{ "Status" : "OK" }
+
+13:42:05.464 [main] INFO  com.intuit.karate - karate.env system property was:  
+13:42:06.076 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 154
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com","phones":[{"type":"HOME","number":"1234567890","countryCode":4}]}
+
+13:42:09.878 [main] DEBUG com.intuit.karate - response time in milliseconds: 3794.36
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Wed, 03 Jun 2020 08:12:09 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1591171989
+1 < x-srv-span: v=1;s=06cba0ed7dad22e5
+1 < x-srv-trace: v=1;t=e61ee07cdcdb872a
+{ "Status" : "OK" }
+
+10:40:40.301 [main] INFO  com.intuit.karate - karate.env system property was:  
+10:40:40.738 [main] DEBUG com.intuit.karate - request:
+1 > POST https://43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io/POSTUser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 154
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 43db3005-4ed9-4bab-b0a3-bb066e79e816.mock.pstmn.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_252)
+{"firstName":"James","lastName":"White","username":"jamesWhite","email":"james@user.com","phones":[{"type":"HOME","number":"1234567890","countryCode":4}]}
+
+10:40:43.623 [main] DEBUG com.intuit.karate - response time in milliseconds: 2813.20
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Sun, 07 Jun 2020 05:10:43 GMT
+1 < ETag: W/"13-fi8z1w5zhQ5WS6tOzlFF9hJkN+E"
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < X-RateLimit-Limit: 120
+1 < X-RateLimit-Remaining: 119
+1 < X-RateLimit-Reset: 1591506703
+1 < x-srv-span: v=1;s=7f038b6254df57bc
+1 < x-srv-trace: v=1;t=044ec6027036c84e
+{ "Status" : "OK" }
+
